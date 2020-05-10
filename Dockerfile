@@ -1,6 +1,6 @@
 FROM python:3.7-alpine3.11
 
-RUN apk add python3-dev gcc build-base
+RUN apk add python3-dev gcc build-base bash
 
 WORKDIR /app
 
